@@ -226,8 +226,6 @@ public class HMACApplet extends javacard.framework.Applet
 			//case 2:Alg_Len = 16; break;
 			case 1:Alg_Len = MessageDigest.LENGTH_SHA; break;
 			case 2:Alg_Len = MessageDigest.LENGTH_MD5; break;
-			case 3:Alg_Len = MessageDigest.LENGTH_RIPEMD160; break;
-			case 4:Alg_Len = MessageDigest.LENGTH_SHA_256; break;
 			case 5:Alg_Len = MessageDigest.LENGTH_SHA_384; break;
 			case 6:Alg_Len = MessageDigest.LENGTH_SHA_512; break;
 			default:ISOException.throwIt(ISO7816.SW_WRONG_P1P2);
