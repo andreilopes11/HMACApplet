@@ -15,6 +15,7 @@ public class HMACApplet extends javacard.framework.Applet
 	final static byte INS_HASH = (byte) 0x30;
 	final static byte INS_HMAC = (byte) 0x40;
 	final static byte INS_HASHCHAIN = (byte) 0x50;
+	final static byte INS_DEV = (byte) 0x70;
 
 	public static void install (byte [] barray, short bOffset, byte bLength) 
 	{
